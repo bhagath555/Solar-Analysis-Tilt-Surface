@@ -10,7 +10,15 @@ function year_rad = yearly_rad(p,b,g,s_yr)
 %       
 % OUTPUTS:
 %      Annual solar radiation falling on tilted plane. (KWh/m^2)
-% 
+%
+%
+% Test: For delhi city
+%     p - 28.7
+%     b - 30.1 optimal tilt angle for maximum radiation
+%     g - 0 south facing 
+%     s_yr - [8.7, 8.7, 9, 9.7, 9.7, 9.4, 8.4, 7.8, 8.6, 9.6, 8.7, 8.1]
+%     monthly average sushine hours over a year.
+%     yearly_rad(p,b,g,s_yr) radiation in KWh/m^2
  
 
 p = deg2rad(p);
